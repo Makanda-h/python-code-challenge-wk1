@@ -1,12 +1,16 @@
+# function that takes in two numbers and returns their sum
 def add_numbers(num1, num2) :
     return num1+num2
 
+# function that checks if anumber is even and returns True if it is, False otherwise
 def is_even(num):
     return num % 2 == 0
 
+# function that takes in a string and returns the string reversed
 def reverse_string(string):
     return string[::-1]
 
+# function that takes in a string and returns the number of vowels in the string
 def count_vowels(string):
     vowels = ["a","e","i","o","u"]
     count = 0
@@ -15,12 +19,14 @@ def count_vowels(string):
             count +=1
     return count
 
+# function that calculates the factorial of a number
 def calculate_factorial(n):
     factorial = 1
     for i in range(1, n+1):
         factorial *= i
     return factorial
 
+# function that uses a decorator function to print "Decorator Applied" before the function is called
 def apply_decorator(func):
     def decorator_func(*args, **kwargs):
         print("Decorator Applied")
