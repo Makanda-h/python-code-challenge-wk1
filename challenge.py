@@ -2,7 +2,7 @@
 def add_numbers(num1, num2) :
     return num1+num2
 
-# function that checks if anumber is even and returns True if it is, False otherwise
+# function that checks if anumber is even and returns true if it is, false otherwise
 def is_even(num):
     return num % 2 == 0
 
@@ -53,11 +53,11 @@ def merge_dicts(dict1, dict2):
     return merged
 
 class Car:
-    # Create a class Car with attributes make, model, and year
+    # Create a class Car with attributes make, model and year
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
         self.year = year
-        # Create a method display_info that prints the year, make, and model of the car
+        # Create a method display_info that prints the year, make and model of the car
     def display_info(self):
         print(f"Model: {self.model}, Make: {self.make}, Year: {self.year}")
